@@ -12,7 +12,7 @@ public class DnDie {
         JFrame f=new JFrame("Dungeons & Dragons Dice");
 
         final JTextField itf=new JTextField("Hej");
-        itf.setToolTipText("Which die you wanna use?:D");
+        itf.setToolTipText("Which die you wanna use?");
         itf.setBounds(50,20, 50,20);
         itf.addActionListener(new ActionListener() {
             @Override
